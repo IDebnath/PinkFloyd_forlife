@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+        <!-- <link rel="text/javascipt" href="index.js"> -->
+        <title>Pink Floyd</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- write style code here -->
+        <!-- Link jQuery-->
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- animates th learn more button-->
+        <!-- <script>
+            $document.ready(function(){
+                $("#bios").hover(function(){
+                    $("#LMbtn").animate({
+                        left: '40%',
+                        right: '40%',
+                        opacity: '0.5',
+                        height: '20px',
+                        width: '100px',
+                    });
+                });
+            });
+        </script> -->
+    </head>
+
+    <body>
+        <!-- Navigation bar tools -->
+        <nav>
+            <div class="column1">
+                <button><a class="logo" href="index.html"><img src="images/3953950243_15pinkfloydpngforfreedownloadon.png" height="65" width="65" alt="pink-floyd-logo"></a></button>
+            </div>
+            <div class="column2">
+                <ul>
+                <!-- Band logo to redirect to homepage -->
+                
+                <!-- Redirect to description part of the index.html page -->
+                    <li><a href="#descript">Description</a></li>
+                <!-- Redirects to bio.html; open in a new tab -->
+                    <li><a href="#bios">Bio</a></li>
+                <!-- Redirect to albums.html; open in a new tab -->
+                    <li><a href="albums.html" target="_blank">Discography</a></li>
+                <!-- Redirect to catalog.html; open in a new tab -->
+                    <li><a href="catalog.html" target="_blank">Tour Dates</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Slideshow Container -->
+        <div class="slideshow-container">
+            <div class="slides fade">
+                <img src="images/524892.jpg" style="width: 100%;">
+                <div class="text">Earlier Pink Floyd</div>
+            </div>
+
+            <div class="slides fade">
+                <img src="images/5d5351fbe3cabc9931a15d65735d7dc3.jpg" style="width: 100%;">
+                <div class="text">Pink Floyd: The Wall</div>
+            </div>
+
+            <div class="slides fade">
+                <img src="images/599153.jpg" style="width: 100%;">
+                <div class="text">Richard Wright, David Gilmour and Bob Klose</div>
+            </div>
+
+            <div class="slides fade">
+                <img src="images/stretchedAnimals19201080964459.jpg" style="width: 100%;">
+                <div class="text">Pink Floyd: Animals</div>
+            </div>
+
+            <div class="slides fade">
+                <img src="images/stretched19201080287476.jpg" style="width: 100%;">
+                <div class="text">Pink Floyd Album Arts</div>
+            </div>
+
+            <div class="slides fade">
+                <img src="images/PinkFloydComputerWallpaper.jpg" style="width: 100%;">
+                <div class="text">Pink Floyd Fan Art</div>
+            </div>
+        </div>
+        <br>
+        <div style="text-align: center;">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <div id="descript">
+            <h2>Description</h2>
+            <p>Pink Floyd is an English rock band formed in 1965. 
+                They gained fame as one of the first British psychedelic 
+                groups. Pink Floyd was known for their extended compositions, 
+                light shows, and philosophical lyrics. The band was founded by 
+                students. By 2013, they became one of the best selling artists 
+                by selling 250 million records worldwide. Thoughout their music 
+                career, they have earned glamorous awards like the BAFTA award, 
+                the Grammy and the Polar 
+                Music Award.
+            </p>
+        </div>
+
+        <div id="bios">
+            <h2>Biography</h2>
+            <p>The earlier Pink Floyd in 1965 had five members. They are 
+                Syd Barrett (lead and rhythm guitars, vocals), Nick Mason (drums
+                percussions and vocals), Roger Waters (bass, vocals and rhythm 
+                guitar), Richard Wright (keyboards, piano, organ and vocals) and 
+                Bob Klose (lead guitar). Later, when Barrett left the band in April, 
+                1968, Pink Floyd hired David Gilmour (lead and rhythm guitars, vocals, 
+                bass and keyboards) to replace Syd Barrett.  
+                <h5 id="LMbtn"><a href="bio.html" target="_blank">Learn More</a></h5>
+            </p>
+        </div>
+        <audio autoplay muted><source src="music/ComfortablyNumb.mp3" type="audio/mpeg">Your browser does not support audio.</audio>
+        <script src="index.js"></script>
+    </body>
+
+    <footer>
+        <p><a href="about.html" target="_blank">Lokananda Debnath</a> @ All rights Reserved.</p>
+    </footer>
+</html>

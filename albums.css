@@ -1,0 +1,126 @@
+* {
+    color: white;
+    font-size: 28px;
+    margin: 30px;
+}
+
+
+
+
+/* body */
+h1 {
+    text-align: center;
+    font-size: 38px;
+    color: deeppink;
+}
+
+h4 {
+    text-align: center; 
+}
+
+body {
+    background-color: #000;
+}
+
+p {
+    text-align: center;
+    
+}
+
+.albumcontainer {
+    border: 1pt solid deeppink;
+    padding: 10px;
+    margin-top: 1em;
+}
+
+
+.leftThumb {
+    float: left;
+    
+}
+
+.rightThumb {
+    float: right;
+    
+}
+
+.leftSong {
+    text-align: left;
+    
+    padding-left: 0px;
+}
+
+.rightSong {
+    text-align: right;
+    
+    padding-right: 0px;
+}
+
+figure img {
+    position:relative;
+}
+
+figcaption {
+    visibility: hidden;
+}
+
+ol {
+    list-style-type: none;
+}
+
+#piper {
+    padding: 0;
+    margin: 0;
+    max-height: 400;
+    max-width:400;
+}
+
+#secret {
+    padding-bottom: 0;
+    margin: 0;
+    max-height: 400;
+    max-width:400;
+}
+
+#pair {
+    vertical-align: middle;
+}
+
+#wish {
+    padding-bottom: 0;
+    margin: 0;
+    max-height: 400;
+    max-width:400;
+}
+
+#animal {
+    padding-bottom: 0;
+    margin: 0;
+    max-height: 400;
+    max-width:400;
+}
+
+#atom {
+    padding-bottom: 0;
+    margin: 0;
+    max-height: 400;
+    max-width:400;
+}
+
+#wall {
+    vertical-align: middle;
+}
+
+/* footer */
+footer {
+    padding: 10px 20px;
+    background: #666;
+    border-color: hotpink;
+    color: white;
+    font-size: 18px;
+    bottom: 0;
+}
+
+p a {
+    color: deeppink;
+}

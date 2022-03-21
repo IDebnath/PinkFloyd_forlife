@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+
+body {
+    background-color: #000;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+    padding-left: 100;
+}
+
+
+table, td, th {
+    border: 1pt solid white;
+    text-align: center;
+    color: white;
+    
+}
+
+a {
+    color: white;
+}
+
+th {
+    color: white
+}
+
+#midbreak {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#unavailable {
+    color: red;
+    font-weight: bold;
+}
+
+footer {
+    padding: 10px 20px;
+    background: #666;
+    border-color: hotpink;
+    color: white;
+    font-size: 18px;
+    bottom: 0;
+}
+
+p a {
+    color: crimson;
+}

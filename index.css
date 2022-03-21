@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: black;
+    font-size: 28px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    top: 30px;
+    
+}
+
+/* Caption Text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background-color: deeppink;
+}
+
+/* Dots */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading Animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* For smaller screens */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+
+/* nav bar formation */
+.logo {
+    padding: 0;
+}
+
+.column1 {
+    flex: 50%;
+}
+
+.column2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+p {
+    display: inline;
+}
+
+nav {
+    background-color: #000;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+}
+
+/* footer part */
+footer {
+    padding: 10px 20px;
+    background: #666;
+    border-color: hotpink;
+    color: white;
+    font-size: 18px;
+    bottom: 0;
+}
+
+p a {
+    color: deeppink;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li a:hover {
+    background-color: deeppink;
+}
+
+/* home button */
+
+li button {
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* body text */
+#descript {
+    text-align: center;
+    display: block;
+    width: 45%;
+    margin: auto;
+    
+}
+
+#bios {
+    text-align: center;
+    display: block;
+    width: 45%;
+    margin: auto;
+    
+}
+
+h5 a {
+    font-size: smaller;
+}
